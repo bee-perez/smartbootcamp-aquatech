@@ -13,7 +13,7 @@ body {
 }    
 
 .header {
-    border-bottom: solid dodgerblue 2px;
+    border-bottom: solid #32B9CD 2px;
 }
 
 .container{
@@ -29,7 +29,7 @@ body {
 }
 
 .header .container .titulo {
-    color:dodgerblue;
+    color:#32B9CD;
 }
 
 .container .navbar {
@@ -47,7 +47,7 @@ body {
 
 .agora {
     font-weight: 700;
-    border-bottom: solid dodgerblue 2px;
+    border-bottom: solid #32B9CD 2px;
 }
 
 
@@ -112,14 +112,81 @@ body {
 
 /* FOOTER */
 .footer{
-    background: dodgerblue;
+    background: #32B9CD;
 }
 
 .footer .container{
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 24px 0;
+    padding: 12px 0;
 }
 
 
+/* LOGIN  E CADASTRO*/
+.login, .cadastro {
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 40px;
+    min-height: 100%;
+}
+
+.login {
+    height: 564px;
+}
+
+.card.card-login, .card.card-cadastro{
+    width: 100%;
+    max-width: 600px;
+    background: #E5E5E5;
+    padding: 24px 42px;
+    color: #E46895;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .container, .cadastro .container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.campo input{
+    height: 36px;
+    border: 2px solid #32B9CD;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 6px;
+}
+
+.botao {
+    color: white;
+    background: #EA155B;
+    width: 124px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+}
